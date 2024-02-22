@@ -1,0 +1,11 @@
+# docker run --rm -d -p 9411:9411 --name zipkin openzipkin/zipkin
+
+The --rm flag in the docker run command tells Docker to automatically remove the container and its file system when the command exits.
+ This is useful for containers that are only used for a short time and do not need to persist any data. 
+It also saves disk space by cleaning up unused containers.
+or 
+for namingg the image
+# docker run -d -p 9411:9411 openzipkin/zipkin
+
+do following setup
+https://opentelemetry.io/docs/languages/js/getting-started/nodejs/
