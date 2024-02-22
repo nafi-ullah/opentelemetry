@@ -9,3 +9,7 @@ for namingg the image
 
 do following setup
 https://opentelemetry.io/docs/languages/js/getting-started/nodejs/
+
+run node after setup open telemetry and zipkin
+
+# node -r ./tracing.js app.js
